@@ -1,0 +1,108 @@
+body {
+  text-align: center;
+  background-image: url("https://lh3.googleusercontent.com/PgxmpiJ4JeC8_EmSGjTwU4xtwlbQkNv_yYUC0aASbMHX9OABEY1Oqlrm2fWBB-2GZgslooIKGOt5TEZWJ-x_-Pu_k_zkD7o-Xkp6hNlHlcV35BGUJR2NQpZTaj_oxXjmfnhZ85LJwA=w2400");
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+}
+
+h2 {
+  padding-top: 5%;
+}
+
+h3 {
+  padding: 2% 0;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+/* Navbar */
+.container-fluid {
+  padding: 0;
+}
+
+.navbar {
+  margin: 0;
+}
+
+.nav-link {
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.nav-item {
+  text-align: right;
+}
+
+.navbar-brand {
+  font-style: italic;
+  font-weight: 600;
+}
+
+/* Title */
+.col-lg-6, footer {
+  background-color: white;
+}
+
+.title-heading {
+  padding: 30% 15%;
+  font-size: 3rem;
+  color: black;
+}
+
+.title-image {
+  padding: 5.5rem 0;
+}
+
+/* Members */
+.carousel-members {
+  padding: 3% 0;
+  height: 600px;
+}
+
+.members-img {
+  height: 400px;
+  margin: 1rem;
+}
+
+.break {
+  background-color: white;
+  height: 5rem;
+}
+
+/* Albums */
+.album-img {
+  margin: 5% 0;
+  height: 300px;
+}
+
+.carousel-album {
+  height: 900px;
+}
+
+.album-title, .album-tracks {
+  color: white;
+}
+
+.album-title:hover, .album-tracks:hover{
+  color: #333;
+}
+
+/* Footer*/
+footer {
+  margin-top: 3%;
+  padding-top: 2%;
+}
+
+.fa {
+  color: black;
+}
+
+.fa:hover {
+  color: #222;
+}
+
+.footer-text {
+  padding-top: 1%;
+  color: grey;
+}
