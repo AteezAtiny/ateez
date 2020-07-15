@@ -9,7 +9,7 @@ h2 {
   padding-top: 5%;
 }
 
-h3 {
+h3, h1 {
   padding: 2% 0;
 }
 
@@ -80,11 +80,11 @@ a:hover {
   height: 950px;
 }
 
-.album-title, .album-tracks {
+.album-title, .album-tracks, .mv-list {
   color: white;
 }
 
-.album-title:hover, .album-tracks:hover{
+.album-title:hover, .album-tracks:hover, .mv-list:hover{
   color: #333;
 }
 
@@ -105,4 +105,10 @@ footer {
 .footer-text {
   padding-top: 1%;
   color: grey;
+}
+
+/* --------------MV--------------------------- */
+
+ .mv-button {
+  display: none;
 }
