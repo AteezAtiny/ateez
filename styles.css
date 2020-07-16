@@ -84,7 +84,7 @@ a:hover {
   color: white;
 }
 
-.album-title:hover, .album-tracks:hover, .mv-list:hover{
+.album-title:hover, .album-tracks:hover, .mv-list:hover {
   color: #333;
 }
 
@@ -111,7 +111,28 @@ footer {
 }
 
 /* --------------MV--------------------------- */
-
- .mv-button {
+.mv-button {
   display: none;
+}
+
+@media (max-width: 600px) {
+  .mv-button {
+    display: none;
+    margin-bottom: 100%;
+  }
+
+  .mv-list-container {
+    margin-bottom: 100%;
+  }
+}
+
+@media (max-width: 1020px) {
+  .mv-button {
+    display: none;
+    margin-bottom: 60%;
+  }
+
+  .mv-list-container {
+    margin-bottom: 60%;
+  }
 }
