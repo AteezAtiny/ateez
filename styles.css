@@ -56,7 +56,7 @@ a:hover {
 
 /* Members */
 .carousel-members {
-  padding: 3% 0;
+  margin: 3% 0;
   height: 700px;
 }
 
@@ -90,11 +90,9 @@ a:hover {
 
 /* Footer*/
 footer {
-  position: relative;
-  top: 200%;
-  width: 100%;
   margin-top: 3%;
   padding-top: 2%;
+  overflow: auto;
 }
 
 .fa {
@@ -115,24 +113,13 @@ footer {
   display: none;
 }
 
-@media (max-width: 600px) {
-  .mv-button {
-    display: none;
-    margin-bottom: 100%;
-  }
-
-  .mv-list-container {
-    margin-bottom: 100%;
-  }
-}
-
 @media (max-width: 1020px) {
   .mv-button {
     display: none;
-    margin-bottom: 60%;
+    margin-bottom: 100%;
   }
 
   .mv-list-container {
-    margin-bottom: 60%;
+    margin-bottom: 100%;
   }
 }
