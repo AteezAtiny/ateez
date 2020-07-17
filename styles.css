@@ -17,6 +17,10 @@ a:hover {
   text-decoration: none;
 }
 
+.carousel, .mv-list-container {
+  padding: 0 10%;
+}
+
 /* Navbar */
 .container-fluid {
   padding: 0;
@@ -90,7 +94,7 @@ a:hover {
 
 /* Footer*/
 footer {
-  margin-top: 3%;
+  margin-top: 10%;
   padding-top: 2%;
   overflow: auto;
 }
