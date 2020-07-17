@@ -95,12 +95,12 @@ a:hover {
 /* Footer*/
 footer {
   margin-top: 10%;
-  padding-top: 2%;
   overflow: auto;
 }
 
 .fa {
   color: black;
+  margin: 3%;
 }
 
 .fa:hover {
@@ -110,6 +110,17 @@ footer {
 .footer-text {
   padding-top: 1%;
   color: grey;
+}
+
+/* Social */
+.ateez-social {
+  background-color: #fff;
+  margin-top: 3%;
+}
+
+.social-text {
+  padding-top: 3%;
+  color: #000;
 }
 
 /* --------------MV--------------------------- */
