@@ -5,12 +5,13 @@ $(".mv-list").click(function() {
   console.log(href);
   $("#mv-list").hide();
   $(".mv-button").show();
-  $("h1").after('<iframe width="560" height="315" src=' + href + ' frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>');
+  $("iframe").attr("src", href);
+  $("iframe").show();
   event.preventDefault();
 });
 
 $(".mv-button").click(function() {
   $(this).hide();
-  $("iframe").remove();
+  $("iframe").hide();
   $("#mv-list").show();
 });

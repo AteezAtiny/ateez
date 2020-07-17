@@ -109,17 +109,11 @@ footer {
 }
 
 /* --------------MV--------------------------- */
-.mv-button {
-  display: none;
+iframe {
+  margin: 5% 0 1%;
 }
 
-@media (max-width: 1020px) {
-  .mv-button {
-    display: none;
-    margin-bottom: 100%;
-  }
-
-  .mv-list-container {
-    margin-bottom: 100%;
-  }
+.mv-button {
+  display: none;
+  margin: 0 0 50% 0;
 }
