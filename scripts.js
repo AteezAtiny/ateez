@@ -13,5 +13,6 @@ $(".mv-list").click(function() {
 $(".mv-button").click(function() {
   $(this).hide();
   $("iframe").hide();
+  $("iframe").attr("src", " ");
   $("#mv-list").show();
 });

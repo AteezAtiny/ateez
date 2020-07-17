@@ -10,7 +10,7 @@ h2 {
 }
 
 h3, h1 {
-  padding: 2% 0;
+  padding: 5% 0;
 }
 
 a:hover {
@@ -110,10 +110,24 @@ footer {
 
 /* --------------MV--------------------------- */
 iframe {
-  margin: 5% 0 1%;
+  margin: 5% 10% 1%;
+}
+
+.resp-container {
+  position: relative;
+  overflow: hidden;
+  padding-top: 75%;
+}
+
+.resp-iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 80%;
+  height: 60%;
+  border: 0;
 }
 
 .mv-button {
   display: none;
-  margin: 0 0 50% 0;
 }
