@@ -6,6 +6,8 @@ $(".mv-list").click(function() {
   $("#mv-list").hide();
   $(".mv-button").show();
   $("iframe").attr("src", href);
+  var link = href.split("/embed");
+  $(".link-button").attr("href","https://youtu.be" + link[1]);
   $("iframe").show();
   event.preventDefault();
 });
