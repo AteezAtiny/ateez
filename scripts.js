@@ -9,11 +9,13 @@ $(".mv-list").click(function() {
   var link = href.split("/embed");
   $(".link-button").attr("href","https://youtu.be" + link[1]);
   $("iframe").show();
+  $(".link-button").show();
   event.preventDefault();
 });
 
 $(".mv-button").click(function() {
   $(this).hide();
+  $(".link-button").hide();
   $("iframe").hide();
   $("iframe").attr("src", " ");
   $("#mv-list").show();
