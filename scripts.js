@@ -2,7 +2,6 @@ var href;
 
 $(".mv-list").click(function() {
   href = $(this).attr("href");
-  console.log(href);
   $("#mv-list").hide();
   $(".mv-button").show();
   $("iframe").attr("src", href);
@@ -15,7 +14,6 @@ $(".mv-list").click(function() {
 
 $(".content-list").click(function() {
   href = $(this).attr("href");
-  console.log(href);
   $("#content-list").hide();
   $(".mv-button").show();
   $("iframe").attr("src", href);

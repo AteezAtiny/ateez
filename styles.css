@@ -46,16 +46,22 @@ a:hover {
 /* Title */
 .col-lg-6, footer {
   background-color: white;
+  margin-left: 0;
 }
 
 .title-heading {
-  padding: 30% 15%;
+  padding: 6%;
   font-size: 3rem;
   color: black;
 }
 
 .title-image {
-  padding: 5.5rem 0;
+  padding-top: 3.3rem;
+}
+
+.group-image {
+  margin: 0;
+  width: 100%
 }
 
 /* Members */
