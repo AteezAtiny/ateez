@@ -17,7 +17,7 @@ a:hover {
   text-decoration: none;
 }
 
-.carousel, .mv-list-container {
+.carousel, .mv-list-container, .ateez-social, .content-list-container {
   padding: 0 10%;
 }
 
@@ -84,11 +84,11 @@ a:hover {
   height: 60rem;
 }
 
-.album-title, .album-tracks, .mv-list {
+.album-title, .album-tracks, .mv-list, .content-list {
   color: white;
 }
 
-.album-title:hover, .album-tracks:hover, .mv-list:hover {
+.album-title:hover, .album-tracks:hover, .mv-list:hover, .content-list:hover {
   color: #333;
 }
 
