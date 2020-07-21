@@ -1,5 +1,9 @@
 var href;
 
+// $(document).ready(function() {
+//   $('.loading').hide();
+// });
+
 $(".mv-list").click(function() {
   href = $(this).attr("href");
   $("#mv-list").hide();
