@@ -1,9 +1,5 @@
 var href;
 
-// $(document).ready(function() {
-//   $('.loading').hide();
-// });
-
 $(".mv-list").click(function() {
   href = $(this).attr("href");
   $("#mv-list").hide();
@@ -14,6 +10,11 @@ $(".mv-list").click(function() {
   $("iframe").show();
   $(".link-button").show();
   event.preventDefault();
+  $(".spinner-border").removeClass("spinner-hide");
+  $("iframe").on("load", function() {
+    $(".spinner-border").addClass("spinner-hide");
+    $("iframe").show();
+  })
 });
 
 $(".content-list").click(function() {
@@ -26,6 +27,11 @@ $(".content-list").click(function() {
   $("iframe").show();
   $(".link-button").show();
   event.preventDefault();
+  $(".spinner-border").removeClass("spinner-hide");
+  $("iframe").on("load", function() {
+    $(".spinner-border").addClass("spinner-hide");
+    $("iframe").show();
+  })
 });
 
 $(".mv-button").click(function() {
@@ -35,4 +41,6 @@ $(".mv-button").click(function() {
   $("iframe").attr("src", " ");
   $("#mv-list").show();
   $("#content-list").show();
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
 });
