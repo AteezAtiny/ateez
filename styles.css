@@ -90,11 +90,11 @@ a:hover {
   height: 63rem;
 }
 
-.album-title, .album-tracks, .mv-list, .content-list {
+.album-title, .album-tracks, .mv-list, .content-list, .guide-list {
   color: white;
 }
 
-.album-title:hover, .album-tracks:hover, .mv-list:hover, .content-list:hover {
+.album-title:hover, .album-tracks:hover, .mv-list:hover, .content-list:hover, .guide-list:hover {
   color: #333;
 }
 
@@ -177,6 +177,11 @@ iframe {
   visibility: hidden;
 }
 
-.spinner-border{
+.spinner-border {
   margin-top: 5%;
+}
+
+/* --------------List--------------------------- */
+.guide-footer {
+  margin-top: 350px;
 }
